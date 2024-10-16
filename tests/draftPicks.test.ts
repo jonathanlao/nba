@@ -1,5 +1,5 @@
-import { collectDraftRounds, getDraftPickTotalsPerTeam } from '../src/draftPicks';
-import { firstRoundDraftPlayer, secondRoundDraftPlayer, undraftedPlayer, Hawks } from './fixtures';
+import { collectDraftRounds, getDraftPickTotalsPerTeam, getDraftPickTotals } from '../src/draftPicks';
+import { firstRoundDraftPlayer, secondRoundDraftPlayer, undraftedPlayer, Hawks, Warriors } from './fixtures';
 import { Client, DraftRounds, DraftPickTotal } from '../src/types';
 
 describe('collectDraftRounds', () => {
@@ -60,4 +60,27 @@ describe('getDraftPickTotalsPerTeam', () => {
   });
 });
 
+describe('getDraftPickTotals', () => {
+  it('should return correct draft pick totals for multiple teams', async () => {
+    const mockClient: Client = {
+      getTeams: function() { return Promise.resolve([]) },
+      getPlayersForTeam: jest.fn()
+        .mockResolvedValueOnce([[firstRoundDraftPlayer], null])
+        .mockResolvedValueOnce([[secondRoundDraftPlayer, undraftedPlayer], null])
+    };
+
+    const result: DraftPickTotal[] = await getDraftPickTotals(mockClient, [Warriors, Hawks]);
+    expect(result.length).toBe(2);
+
+    const hawksResult = result.find(team => team.team_name === 'Atlanta Hawks');
+    expect(hawksResult!.draft_rounds["1"]).toBe(0);
+    expect(hawksResult!.draft_rounds["2"]).toBe(1);
+    expect(hawksResult!.draft_rounds["null"]).toBe(1);
+
+    const warriorsResult = result.find(team => team.team_name === 'Golden State Warriors');
+    expect(warriorsResult!.draft_rounds["1"]).toBe(1);
+    expect(warriorsResult!.draft_rounds["2"]).toBe(0);
+    expect(warriorsResult!.draft_rounds["null"]).toBe(0);
+  });
+});
 

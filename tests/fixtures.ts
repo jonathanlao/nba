@@ -1,6 +1,6 @@
 import { Player, Team } from '../src/types'
 
-const Warriors: Team = {
+export const Warriors: Team = {
   "id": 10,
   "conference": "West",
   "division": "Pacific",
