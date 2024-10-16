@@ -1,0 +1,360 @@
+Team Name: Atlanta Hawks
+Draft Rounds: {
+  "1": 68,
+  "2": 42,
+  "null": 140
+}
+
+
+Team Name: Boston Celtics
+Draft Rounds: {
+  "1": 81,
+  "2": 43,
+  "null": 105
+}
+
+
+Team Name: Brooklyn Nets
+Draft Rounds: {
+  "1": 62,
+  "2": 40,
+  "null": 55
+}
+
+
+Team Name: Charlotte Hornets
+Draft Rounds: {
+  "1": 37,
+  "2": 26,
+  "null": 39
+}
+
+
+Team Name: Chicago Bulls
+Draft Rounds: {
+  "1": 58,
+  "2": 38,
+  "null": 60
+}
+
+
+Team Name: Cleveland Cavaliers
+Draft Rounds: {
+  "1": 59,
+  "2": 40,
+  "null": 74
+}
+
+
+Team Name: Dallas Mavericks
+Draft Rounds: {
+  "1": 46,
+  "2": 32,
+  "null": 63
+}
+
+
+Team Name: Denver Nuggets
+Draft Rounds: {
+  "1": 63,
+  "2": 38,
+  "null": 65
+}
+
+
+Team Name: Detroit Pistons
+Draft Rounds: {
+  "1": 68,
+  "2": 51,
+  "null": 127
+}
+
+
+Team Name: Golden State Warriors
+Draft Rounds: {
+  "1": 75,
+  "2": 53,
+  "null": 142
+}
+
+
+Team Name: Houston Rockets
+Draft Rounds: {
+  "1": 48,
+  "2": 43,
+  "null": 71
+}
+
+
+Team Name: Indiana Pacers
+Draft Rounds: {
+  "1": 49,
+  "2": 47,
+  "null": 41
+}
+
+
+Team Name: LA Clippers
+Draft Rounds: {
+  "1": 56,
+  "2": 49,
+  "null": 72
+}
+
+
+Team Name: Los Angeles Lakers
+Draft Rounds: {
+  "1": 71,
+  "2": 47,
+  "null": 96
+}
+
+
+Team Name: Memphis Grizzlies
+Draft Rounds: {
+  "1": 36,
+  "2": 36,
+  "null": 49
+}
+
+
+Team Name: Miami Heat
+Draft Rounds: {
+  "1": 31,
+  "2": 24,
+  "null": 45
+}
+
+
+Team Name: Milwaukee Bucks
+Draft Rounds: {
+  "1": 58,
+  "2": 42,
+  "null": 63
+}
+
+
+Team Name: Minnesota Timberwolves
+Draft Rounds: {
+  "1": 39,
+  "2": 35,
+  "null": 37
+}
+
+
+Team Name: New Orleans Pelicans
+Draft Rounds: {
+  "1": 22,
+  "2": 16,
+  "null": 44
+}
+
+
+Team Name: New York Knicks
+Draft Rounds: {
+  "1": 71,
+  "2": 57,
+  "null": 119
+}
+
+
+Team Name: Oklahoma City Thunder
+Draft Rounds: {
+  "1": 50,
+  "2": 56,
+  "null": 75
+}
+
+
+Team Name: Orlando Magic
+Draft Rounds: {
+  "1": 40,
+  "2": 21,
+  "null": 48
+}
+
+
+Team Name: Philadelphia 76ers
+Draft Rounds: {
+  "1": 63,
+  "2": 55,
+  "null": 104
+}
+
+
+Team Name: Phoenix Suns
+Draft Rounds: {
+  "1": 51,
+  "2": 44,
+  "null": 91
+}
+
+
+Team Name: Portland Trail Blazers
+Draft Rounds: {
+  "1": 61,
+  "2": 40,
+  "null": 61
+}
+
+
+Team Name: Sacramento Kings
+Draft Rounds: {
+  "1": 78,
+  "2": 45,
+  "null": 118
+}
+
+
+Team Name: San Antonio Spurs
+Draft Rounds: {
+  "1": 37,
+  "2": 34,
+  "null": 77
+}
+
+
+Team Name: Toronto Raptors
+Draft Rounds: {
+  "1": 27,
+  "2": 28,
+  "null": 35
+}
+
+
+Team Name: Utah Jazz
+Draft Rounds: {
+  "1": 45,
+  "2": 41,
+  "null": 62
+}
+
+
+Team Name: Washington Wizards
+Draft Rounds: {
+  "1": 61,
+  "2": 53,
+  "null": 88
+}
+
+
+Team Name: Chicago Stags
+Draft Rounds: {
+  "1": 1,
+  "2": 1,
+  "null": 20
+}
+
+
+Team Name: St. Louis Bombers
+Draft Rounds: {
+  "1": 0,
+  "2": 1,
+  "null": 20
+}
+
+
+Team Name: Cleveland Rebels
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 10
+}
+
+
+Team Name: Detroit Falcons
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 12
+}
+
+
+Team Name: Toronto Huskies
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 12
+}
+
+
+Team Name: Washington Capitols
+Draft Rounds: {
+  "1": 1,
+  "2": 0,
+  "null": 18
+}
+
+
+Team Name: Providence Steamrollers
+Draft Rounds: {
+  "1": 1,
+  "2": 0,
+  "null": 24
+}
+
+
+Team Name: Pittsburgh Ironmen
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 15
+}
+
+
+Team Name: Baltimore Bullets
+Draft Rounds: {
+  "1": 4,
+  "2": 0,
+  "null": 47
+}
+
+
+Team Name: Indianapolis Jets
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 13
+}
+
+
+Team Name: Anderson Packers
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 6
+}
+
+
+Team Name: Waterloo Hawks
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 13
+}
+
+
+Team Name: Indianapolis Olympians
+Draft Rounds: {
+  "1": 4,
+  "2": 3,
+  "null": 16
+}
+
+
+Team Name: Denver Nuggets
+Draft Rounds: {
+  "1": 0,
+  "2": 0,
+  "null": 11
+}
+
+
+Team Name: Sheboygan Redskins
+Draft Rounds: {
+  "1": 1,
+  "2": 0,
+  "null": 12
+}
+
+

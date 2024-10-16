@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Initial Assessment</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Initial Assessment
+    </h1>
+
+    <h2>Goals
+    </h2>
+
+    <p>
+    <ol>
+        <li>Please complete to the best of your ability</li>
+        <li>Required: TypeScript with tests</li>
+        <li>JavaScript should be able to run on <a href="https://codepen.io/pen/">Codepen</a> or <a
+                href="https://stackblitz.com">StackBlitz</a></li>
+        <li>Submit source files as .zip</li>
+    </ol>
+    </p>
+
+    <h2>Problem Statement
+    </h2>
+
+    <p>We deal with a lot of player and game statistics every day.
+        Today there is a business need for us to look into how many first round and second round players there are for a
+        given team. This data is important as it shows how the team has been performing with their player picks in the
+        NBA draft. So, we are looking for a consolidated data to see how many players are from round 1 and round 2.
+    </p>
+
+    <p>You can use <a href="https://www.balldontlie.io/#getting-started">https://www.balldontlie.io/#getting-started</a>
+        to find the documentation on the API you will need to use to successfully produce the results. You can sign up
+        for the API Key with free tier. You should be able to run everything with the free version.
+    </p>
+
+    <p>Please consider the following APIs to succeed in this assessment:
+    <ul>
+        <li><strong>GET https://www.balldontlie.io/api/v1/players</strong></li>
+        <li><strong>GET https://www.balldontlie.io/api/v1/teams</strong></li>
+    </ul>
+    </p>
+
+    <p>The output needs to be similar to this:
+    <pre><code>
+    Team Name: Golden State Warriors
+    Draft Rounds: {"1": 13, "2": 7, "null": 5}
+    </code></pre>
+    </p>
+    </div>
+
+    <hr />
+
+    <div class="output">
+        <h2>Output
+        </h2>
+        <p>Team Name: <span id="name">_______________</span></p>
+        <p>Draft Rounds: <span id="result">_______________</span></p>
+    </div>
+
+</body>
+
+</html>
